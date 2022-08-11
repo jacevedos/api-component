@@ -42,7 +42,7 @@ body{
 
 .main{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--dark-blue-color);
     display: flex;
     flex-direction: column;
@@ -100,8 +100,9 @@ body{
 }
 
 .attribution { 
+    background-color: var(--dark-blue-color);
     width: 100%;
-    position: absolute;
+    position:static;
     bottom: 0;
     font-size: 11px; text-align: center; 
     color: var(--light-cyan-color);
